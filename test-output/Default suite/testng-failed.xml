@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ebay.qa.testcases.DataProviderTestUsingMap">
+        <methods>
+          <include name="buyProduct"/>
+          <include name="initalSetUp"/>
+          <include name="setUp"/>
+          <include name="afterTestMethod"/>
+          <include name="afterMethodMethod"/>
+          <include name="beforeMethodtMethod"/>
+        </methods>
+      </class> <!-- com.ebay.qa.testcases.DataProviderTestUsingMap -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

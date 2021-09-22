@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ebay_Test_automation_Suite" parallel="none">
+
+	<test name="Smoke Tests">
+
+		<parameter name="browserName" value="chrome"></parameter>
+
+		<classes>
+			<class name="com.ebay.qa.testcases.DataProviderTestUsingMap" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
